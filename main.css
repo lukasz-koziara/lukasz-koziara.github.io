@@ -1,3 +1,47 @@
-.nav-item{
-    margin-right: 20px;
+
+html,body {
+  font-family: 'Raleway', sans-serif;
+  padding: 0 0 2em 0;
+  font-size: 18px;
+  background: #fff;
+  color: #222;
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+
+
+.nav-item {
+    margin-right: 1.5em;
+}
+
+.menu {
+    height: 2.5em;
+}
+
+.main {
+    margin-top: 2em
+}
+
+.photo{
+    height: 400px;
+}
+
+.photo img {
+    border-radius: 150%;
+}
+
+.about {
+    display: block;
+    font-size: 1.2rem;
+    margin: 20px auto;
+    letter-spacing: 0.6px;
+    text-align: justify;
 }
